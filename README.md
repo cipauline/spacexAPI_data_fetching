@@ -4,7 +4,6 @@
 Fetching data from a Space X API on spaceship launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow.
 
 Project files:
-- ``config/config.yaml`` - configuration file with info on API and database access<br>
 - ``dags/dag.py`` - dag with tasks and their order<br>
 - ``docker-compose.yaml`` - file used to define and manage docker containers<br>
 - ``requirements.txt`` - text document with libraries required for the project<br>
