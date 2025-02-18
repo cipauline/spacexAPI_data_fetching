@@ -8,7 +8,6 @@ Project files:
 - ``dags/dag.py`` - dag with tasks and their order<br>
 - ``docker-compose.yaml`` - file used to define and manage docker containers<br>
 - ``requirements.txt`` - text document with libraries required for the project<br>
-- ``visualization/`` - folder with data visualizations made in Tableau<br>
 
 
 ## Creation process
@@ -46,3 +45,10 @@ Project files:
 7. Restarting docker containers and running a dag in Airflow
 
 8. Visualizing data in Tableau
+
+
+## Viaulization
+
+<img width="645" alt="Снимок экрана 2025-02-18 в 06 10 45" src="https://github.com/user-attachments/assets/71763ba6-beab-45e0-a6fa-e008084ace1a" />
+
+
