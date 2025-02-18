@@ -46,24 +46,3 @@ Project files:
 7. Restarting docker containers and running a dag in Airflow
 
 8. Visualizing data in Tableau
-
-
-## How to run a project
-### run using docker:
-
-! Ensure Docker is running locally
-  
-
-- Build an image
-
-```bash
-docker build -t etl_pipeline .
-
-```
-
-- Run the etl
-
-```bash
-docker run -d --name etl-container etl_pipeline
-
-```
