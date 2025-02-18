@@ -5,28 +5,29 @@
 
 1. Following instructions from Airflow on running Airflow in Docker (https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
 
-Fetching docker-compose.yaml:
-```bash
-curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.5/docker-compose.yaml'
+  Fetching docker-compose.yaml:
+  ```bash
+  curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.5/docker-compose.yaml'
 
-```
+  ```
 
-Initializing an airflow server (also creates a user account):
-```bash
-docker compose up airflow-init
+  Initializing an airflow server (also creates a user account):
+  ```bash
+  docker compose up airflow-init
 
-```
+  ```
 
-3. Updating a docker-cpmpose file by adding ports to postgres service and adding a pgadmin service
+3. Updating a docker-compose file by adding ports to postgres service and adding a pgadmin service
+   
 
 5. Creating a postgres database in pgadmin
 
 7. Starting a docker container
 
-```bash
-docker compose up airflow-init
+  ```bash
+  docker compose up airflow-init
 
-```
+  ```
 
 9. Creating a connection for a database in Airflow 
 
