@@ -1,5 +1,41 @@
 # Space X data ETL Pipeline
 
+
+# Creation process
+
+1. Following instructions from Airflow on running Airflow in Docker (https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
+
+Fetching docker-compose.yaml:
+```bash
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.5/docker-compose.yaml'
+
+```
+
+Initializing an airflow server (also creates a user account):
+```bash
+docker compose up airflow-init
+
+```
+
+3. Updating a docker-cpmpose file by adding ports to postgres service and adding a pgadmin service
+
+5. Creating a postgres database in pgadmin
+
+7. Starting a docker container
+
+```bash
+docker compose up airflow-init
+
+```
+
+9. Creating a connection for a database in Airflow 
+
+5. Creating an Aifdlow dag with extracting data from spaceX API, transforming it with pandas and loading the data into a postgres database
+
+7. Restarting docker containers and starting a dag
+
+
+
 ## Project overview
 Fetching data from a Space X API on spaceship launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow.
 
