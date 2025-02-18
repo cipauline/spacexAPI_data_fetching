@@ -2,12 +2,13 @@
 
 
 ## Project overview
-Fetching data from a SpaceX API on rocket launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow, visualising data in Tableau.
+Fetching data from a SpaceX API on rocket launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow, visualizing data in Tableau.
 
 Project files:
 - ``dags/dag.py`` - dag with tasks and their order<br>
 - ``docker-compose.yaml`` - file used to define and manage docker containers<br>
 - ``requirements.txt`` - text document with libraries required for the project<br>
+- ``visualization/`` - folder with data visualizations made in Tableau<br>
 
 
 ## Creation process
@@ -42,7 +43,9 @@ Project files:
 
 5. Creating an Airflow dag with extracting data from spaceX API, transforming it with pandas and loading the data into a postgres database
 
-7. Restarting docker containers and starting a dag
+7. Restarting docker containers and running a dag in Airflow
+
+8. Visualizing data in Tableau
 
 
 ## How to run a project
