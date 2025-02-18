@@ -2,7 +2,7 @@
 
 
 ## Project overview
-Fetching data from a SpaceX API on spaceship launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow.
+Fetching data from a SpaceX API on rocket launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow, visualising data in Tableau.
 
 Project files:
 - ``dags/dag.py`` - dag with tasks and their order<br>
