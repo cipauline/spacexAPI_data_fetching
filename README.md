@@ -40,7 +40,7 @@ Project files:
 
 9. Creating a connection for a database in Airflow 
 
-5. Creating an Aifdlow dag with extracting data from spaceX API, transforming it with pandas and loading the data into a postgres database
+5. Creating an Airflow dag with extracting data from spaceX API, transforming it with pandas and loading the data into a postgres database
 
 7. Restarting docker containers and starting a dag
 
