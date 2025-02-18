@@ -1,7 +1,16 @@
 # Space X data ETL Pipeline
 
 
-# Creation process
+## Project overview
+Fetching data from a Space X API on spaceship launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow.
+
+Project files:
+- ``dags/dag.py`` - dag with tasks and their order<br>
+- ``docker-compose.yaml`` - file used to define and manage docker containers<br>
+- ``requirements.txt`` - text document with libraries required for the project<br>
+
+
+## Creation process
 
 1. Following instructions from Airflow on running Airflow in Docker (https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
 
@@ -35,15 +44,6 @@
 
 7. Restarting docker containers and starting a dag
 
-
-
-## Project overview
-Fetching data from a Space X API on spaceship launches. Transforming it into a DataFrame and loading into a postgreSQL database. Automating tasks with Apache Airflow.
-
-Project files:
-- ``dags/dag.py`` - dag with tasks and their order<br>
-- ``docker-compose.yaml`` - file used to define and manage docker containers<br>
-- ``requirements.txt`` - text document with libraries required for the project<br>
 
 ## How to run a project
 ### run using docker:
