@@ -47,7 +47,7 @@ Project files:
 8. Visualizing data in Tableau
 
 
-## Viaulization
+## Visualization in Tableau
 
 <img width="645" alt="Снимок экрана 2025-02-18 в 06 10 45" src="https://github.com/user-attachments/assets/71763ba6-beab-45e0-a6fa-e008084ace1a" />
 
